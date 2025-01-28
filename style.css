@@ -1,17 +1,16 @@
-/* General Styles */
+
 body {
     font-family: 'Open Sans', sans-serif;
-    background: url('blue.jpg') no-repeat center center fixed; /* Replace with a high-quality image */
-    background-size: cover;
+    background: url('blue.jpg') no-repeat center center fixed; 
     color: #F0F4F8;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
-    align-items: center;/* General Styles */
+    align-items: center;
 body {
     font-family: 'Open Sans', sans-serif;
-    background: url('blue.jpg') no-repeat center center fixed; /* Replace with a high-quality image */
+    background: url('blue.jpg') no-repeat center center fixed; 
     background-size: cover;
     color: #F0F4F8;
     margin: 0;
@@ -23,7 +22,7 @@ body {
   }
   
   .menu {
-    background: rgba(10, 31, 61, 0.8); /* Semi-transparent dark overlay */
+    background: rgba(10, 31, 61, 0.8); 
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -136,7 +135,7 @@ body {
   }
   
   .menu {
-    background: rgba(10, 31, 61, 0.8); /* Semi-transparent dark overlay */
+    background: rgba(10, 31, 61, 0.8); 
     padding: 20px;
     border-radius: 15px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
@@ -225,5 +224,24 @@ body {
     border-radius: 10px;
     padding: 5px;
     background: rgba(255, 255, 255, 0.1);
+  }
+  /* Search Bar */
+input[type="text"] {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #FFD700; 
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #333;
+    outline: none;
+  }
+  
+  input[type="text"]::placeholder {
+    color: #AAA; 
+  }
+  
+  input[type="text"]:focus {
+    border-color: #F0F4F8;
   }
   
