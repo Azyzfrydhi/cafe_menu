@@ -225,23 +225,4 @@ body {
     padding: 5px;
     background: rgba(255, 255, 255, 0.1);
   }
-  /* Search Bar */
-input[type="text"] {
-    width: 80%;
-    padding: 8px;
-    margin-bottom: 20px;
-    border: 1px solid #FFD700; 
-    border-radius: 5px;
-    font-size: 1rem;
-    color: #333;
-    outline: none;
-  }
-  
-  input[type="text"]::placeholder {
-    color: #AAA; 
-  }
-  
-  input[type="text"]:focus {
-    border-color: #F0F4F8;
-  }
-  
+ 
